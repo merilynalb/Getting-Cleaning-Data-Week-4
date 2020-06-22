@@ -40,4 +40,4 @@ Data was downloaded from UCI HAR Dataset
    * ```-freq``` was renamed ```Frequency```
       
   ## From previous step, create a tidy data set with average of each variable for each activity
-  ```FinalData.txt``` is the final, independent, tidy file created from the code written in R. It contains 180 columns and 80 rows, with average calculated for each variable in each activity
+  ```FinalData.txt``` is the final, independent, tidy file created from the code written in R. It contains 180 columns and 88 rows, with average calculated for each variable in each activity
