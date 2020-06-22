@@ -10,8 +10,8 @@ Data was downloaded from UCI HAR Dataset
    * ```activities``` = ```activity_labels.txt```
    * ```subject_test``` = ```text/subject_test.txt```
    * ```X_test``` = ```test/X_test.txt```
-   * ```Y_test``` = ``test/Y_test.txt```
-   * ```subject_train``` = ````train/subject_train.txt```
+   * ```Y_test``` = ```test/Y_test.txt```
+   * ```subject_train``` = ```train/subject_train.txt```
    * ```X_train``` = ```trains/X_train.txt```
    * ```Y_train``` = ```train/Y_train.txt```
 
