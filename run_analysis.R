@@ -36,5 +36,5 @@ names(my_data) <- gsub("-std", "STD", names(my_data))
 names(my_data) <- gsub("-freq", "Frequency", names(my_data))
 
 ##(5)Creating second tidy data set with average of each variable for each activity and each subject
-final_data <- my_data %>% group_by(subject, activity) %>% summarise_all(funs(mean))
+final_data <- my_data %>% group_by(subject, Activity) %>% summarise_all(funs(mean))
 write.table(final_data, "./FinalData.txt", col.names = TRUE, row.names = FALSE)
